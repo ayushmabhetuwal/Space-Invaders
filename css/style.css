@@ -1,0 +1,30 @@
+.container{
+	height:600px;
+	width:600px;
+	position: relative;
+}
+
+.bullet{
+	height:8px;
+	width:8px;
+	position: absolute;
+}
+
+.shooter{
+	height:40px;
+	width:30px;
+	background-image: url("../images/space_ship.png");
+	position: absolute;
+}
+
+.enemy{
+	height:40px;
+	width:50px;
+}
+
+.background{
+	position: absolute;
+	background-size: cover;
+	margin: 0px;
+	background-image: url("../images/space1.jpg");
+}
